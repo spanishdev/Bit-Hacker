@@ -5,14 +5,16 @@ Introduction
 ------------
 
 This is the source code of the game "Bit Hacker" released by Radioactive Wasp on Android devices. The
-code belongs to the free version of the game. IDs of Admob and Google Play Game Services are hidden
-to security purposes.
+code belongs to the free version of the game. 
 
 If you want to download the game, here are the links:
 
 Free verion: https://play.google.com/store/apps/details?id=com.radioactivewasp.bithacker.free
 
 Pro version: https://play.google.com/store/apps/details?id=com.radioactivewasp.bithacker
+
+NOTE: IDs of Admob and Google Play Game Services are hidden for security purposes. You wont be
+able to compile and run the game, unless you remove Admob entries or Google Play Game Services.
 
 How to play the game
 --------------------
