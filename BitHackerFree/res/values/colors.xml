@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="TextColorG">#0F0</color>
+    <color name="Red">#F00</color>
+    <color name="Orange">#FFAF00</color>
+    <color name="Purple">#CD00FF</color>
+</resources>

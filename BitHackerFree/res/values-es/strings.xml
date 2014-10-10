@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BitHacker</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="continue1">Continuar</string>
+    <color name="ButtonG">#0F0</color>
+    <string name="play">Jugar</string>
+    <string name="opt">Opciones</string>
+    <string name="extras">Extras</string>
+    <string name="exit">Salir</string>
+    <string name="puzzle">Modo puzle</string>
+    <string name="survival">Supervivencia</string>
+    <string name="achievements">Logros</string>
+    <string name="credits">Créditos</string>
+    <string name="mgames">Más juegos</string>
+    <string name="help">Ayuda</string>
+    <string name="mempos">Posición de memoria</string>
+    <string name="touches">Toques</string>
+    <string name="credits1">Juego desarrollado por:</string>
+    <string name="credits2">Radioactive Wasp Games (C) 2013. Todos los derechos reservados.</string>
+    <string name="notavailable">Ésta posición de memoria está bloqueada. Deberás completar el anterior.</string>
+    <string name="Backmsg">¿Deseas salir? Si sales perderás el progreso.</string>
+    <string name="Restartmsg">¿Deseas reiniciar? Si lo haces, perderás el progreso.</string>
+    <string name="pause">Pausa</string>
+    <string name="finish_puzzle">¡Felicidades! Has terminado</string>
+    <string name="buymsg">Si quieres jugar más puzles, deberás comprar la version completa.</string>
+     <string name="buy">Ir</string>
+    
+    <!-- ACHIEVEMENTS -->
+    <string name="achiev1_title">Pirata de bits</string>
+    <string name="achiev1_desc">Resolviste todos los puzles</string>
+    <string name="achiev2_title">Maestro Pirata</string>
+    <string name="achiev2_desc">Finalizaste todos los puzles en el menor tiempo posible y en el menor numero de toques</string>
+    <string name="achiev3_title">¡Pirateado!</string>
+    <string name="achiev3_desc">Has pirateado un puzle</string>
+    <string name="achiev4_title">Solución rápida</string>
+    <string name="achiev4_desc">Un puzle fue resuelto en el menor tiempo posible</string>
+    <string name="achiev5_title">Pirateo meticuloso</string>
+    <string name="achiev5_desc">Un puzle fue resuelto en el menor número de toques posible</string>
+    <string name="achiev6_title">Rápido y limpio</string>
+    <string name="achiev6_desc">El jugador resolvió un puzle en el menor tiempo posible y en el menor número de toques</string>
+    <string name="achiev7_title">Friki rápido</string>
+    <string name="achiev7_desc">¡Resolviste un puzle en menos de 3 segundos!</string>
+    <string name="achiev8_title">Veloz como el viento</string>
+    <string name="achiev8_desc">Todos los puzles fueron resueltos en el menor tiempo posible</string>
+    <string name="achiev9_title">Precisión cirujana</string>
+    <string name="achiev9_desc">Todos los puzles fueron resueltos en el menor número de toques posible</string>
+    <string name="achiev10_title">¡Choca esos cinco!</string>
+    <string name="achiev10_desc">Has sobrevivido 5 puzles en modo supervivencia</string>
+    <string name="achiev11_title">Superviviente</string>
+    <string name="achiev11_desc">Has sobrevivido 10 puzles en modo supervivencia</string>
+    <string name="achiev12_title">Inmortal</string>
+    <string name="achiev12_desc">Has sobrevivido 20 puzles en modo supervivencia</string>
+    
+    <!-- HELP -->
+    <string name="help_txt1">El juego consiste en una cuadrícula de diversas casillas. Cada casilla tiene un número que representa un valor. Si el valor es 0 significa en que está desactivada. En cambio, si el valor es 1 entonces la casilla está activada.\n\n
+Reconocer a una casilla activada es fácil, puesto que tiene el fondo de color verde. A continuación unas imágenes que muestran los 3 estados posibles que pueda tener una casilla:</string>
+    <string name="help_txtimg1">Estado desactivado</string>
+    <string name="help_txtimg2">Estado presionado</string>
+    <string name="help_txtimg3">Estado activado</string>
+    <string name="help_tip1"><b>Consejo: </b>Cuando pulses una celda, mantenla pulsada para ver marcadas todas las celdas que cambiarán de valor.</string>
+    <string name="help_txt2">El objetivo del juego es hacer en que todas las casillas verdes estén activadas (con valor 1) y, si hay rojas, que éstas tengan valor 0. Para cambiar de valor una casilla ésta se deberá pulsar y, es probable que se cambien de valor otras celdas a la vez.\n\nEn el juego hay 2 tipos de celdas:\n\n</string>
+    <string name="help_txt2_1"><b>Verde:</b> Son las normales, y para pasar de nivel es necesario que todas estén activadas.\n</string>
+    <string name="help_txt2_2"><b>Rojo:</b> Son bits de seguridad. Todas éstas celdas deberán estar desactivadas.\n</string>
+    <string name="help_txt3">A continuación se mostrarán imágenes de las celdas:\n\n</string>
+    <string name="help_txtimg4">Normal</string>
+    <string name="help_txtimg5">Seguridad</string>
+    <string name="help_txtimg6">Cortafuegos</string>
+    <string name="help_txt4">Éste juego tiene varios modos que serán explicados a continuación.\n\n</string>
+    <string name="help_txt5"><b>MODO PUZLE</b></string>
+    <string name="help_txt6">El modo puzle es un modo donde el jugador deberá resolver varios puzles. Para desbloquear el siguiente primero se deberán haber completado los anteriores.\nCada puzle mide el número de toques que se han hecho y el tiempo en el que se ha resuelto. Cuanto menores sean los toques y menor sea el tiempo, más puntuación se obtendrá.</string>
+    <string name="help_txt7">Al finalizar un puzle se consigue una puntuación, dependiendo de los toques y el tiempo en resolverlo.\nSi tanto los toques como el tiempo son menores a su valor óptimo, la casilla se pintará de azul. Si solo se cumple uno de los 2 (tiempo o toques), entonces se pintará de color naranja.\n</string>
+    <string name="help_txt8">A continuación verás los diversos estados en los cuales se puede finalizar un puzle:\n\n</string>
+    <string name="helptxtimg8">Muestra cada columna lo que representa en el menú.<i>Memory position</i> o posición de memoria indica el nivel que és.\nEl reloj indica el tiempo total invertido en resolver el puzle.\nPor último, los toques se puede deducir que indican.\n</string>
+    <string name="helptxtimg4">Puzle bloqueado. No podrás jugarlo.</string>
+    <string name="helptxtimg5">Puzle desbloqueado sin jugar. No se guardó ninguna puntuación.</string>
+    <string name="helptxtimg6">Puzle con puntuación baja. Se completó pero no se cumplió el requisito de tiempo o de toques.</string>
+    <string name="helptxtimg7">Puzle con puntuación buena. Se completó cumpliendo el requisito de tiempo y de toques.</string>
+    <string name="help_tip2"><b>Consejo: </b>Solo cuenta como toque cuando alguna celda cambia su valor.\nSi alguna vez pulsas en una y te equivocas o no te gusta el resultado, mantén el dedo encima de la pantalla y suéltalo fuera de la cuadrícula.\n</string>
+    <string name="help_txt9"><b>MODO SUPERVIVENCIA</b></string>
+    <string name="help_txt10">Al igual que el modo puzle, el jugador deberá jugar varios puzles.\nSin embargo hay una diferencia: El jugador empieza con una cantidad de tiempo que hace cuenta atrás.\n</string>
+    <string name="help_txt11">La puntuación en éste modo se calcula teniendo en cuenta el número de toques totales y el número de puzles resueltos.</string>
+    <string name="leaderboards">Puntuaciones</string>
+    <string name="round">Ronda</string>
+    <string name="survivalFinish">La partida de supervivencia ha terminado.</string>
+    <string name="sScore">Puntuación</string>
+    <string name="objetivo">Los toques y tiempo óptimos són:</string>
+        <string name="helpdone">Juego terminado</string>
+    <string name="helpundone">Juego en curso</string>
+    <string name="rate">Por favor, ayúdanos y vota el juego. ¡Gracias por el apoyo!</string>
+    <string name="rateLater">Recordar más tarde</string>
+    <string name="showhelp">Parece que es tu primera vez. Quieres leer la ayuda?</string>
+</resources>

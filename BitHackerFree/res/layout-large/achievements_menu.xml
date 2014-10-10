@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/ACTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/achievements"
+        android:textColor="@color/TextColorG"
+        android:textSize="@dimen/Title_large" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.5" >
+
+        <LinearLayout
+            android:id="@+id/achievs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l1a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev1_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev1_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l2a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev2_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev2_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l3a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev3_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev3_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l4a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev4_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev4_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l5a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev5_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev5_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l6a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev6_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev6_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l7a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev7_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev7_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l8a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev8_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev8_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l9a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev9_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev9_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l10a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev10_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev10_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l11a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev11_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev11_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/a12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/menu_button"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/l12a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:text="@string/achiev12_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_normal" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/achiev12_desc"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/TextColorG"
+                        android:textSize="@dimen/button_small" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/AchievBack"
+        style="@style/back_button"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="21dp" />
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BitHacker</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="continue1">Continue</string>
+
+    <color name="ButtonG">#0F0</color>
+
+    <string name="play">Play</string>
+    <string name="opt">Options</string>
+    <string name="extras">Extras</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_play_screen">PlayScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="puzzle">Puzzle mode</string>
+    <string name="survival">Survival mode</string>
+    <string name="achievements">Achievements</string>
+    <string name="credits">Credits</string>
+    <string name="mgames">More games</string>
+    <string name="help">Help</string>
+    <string name="mempos">     Memory   position</string>
+    <string name="touches">Touches</string>
+    <string name="title_activity_extras">Extras</string>
+    <string name="credits1">Game developed by:</string>
+    <string name="credits2">Radioactive Wasp Games (C) 2013. All rights reserved.</string>
+    <string name="notavailable">This memory position is locked. You must do the previous one.</string>
+    <string name="buymsg">If you want to play more puzzles, you can buy the full version.</string>
+     <string name="buy">Go</string>
+    <string name="Backmsg">Would you like to exit? If you do so, the progress won\'t be saved.</string>
+    <string name="Restartmsg">Would you like to restart? If you do so, the progress won\'t be saved.</string>
+    <string name="finish_puzzle">Congratulations! You have finished</string>
+    <string name="pause">Pause</string>
+    <string name="leaderboards">Scores</string>
+    
+    <!-- ACHIEVEMENTS -->
+    <string name="achiev1_title">Bit Hacker</string>
+    <string name="achiev1_desc">You have finished all the puzzles</string>
+    <string name="achiev2_title">Master Hacker</string>
+    <string name="achiev2_desc">You have finished all the puzzles within the optimal time and the optimal touches</string>
+    <string name="achiev3_title">Hacked!</string>
+    <string name="achiev3_desc">You have ended one puzzle</string>
+    <string name="achiev4_title">Fast solver</string>
+    <string name="achiev4_desc">A puzzle has been finished within the optimal time</string>
+    <string name="achiev5_title">Meticulous hacking</string>
+    <string name="achiev5_desc">A puzzle has been solved within the optimal touches</string>
+    <string name="achiev6_title">Fast and clean</string>
+    <string name="achiev6_desc">The player has solved one puzzle as quickly as possible and in as less touches as possible</string>
+    <string name="achiev7_title">Speedy geek</string>
+    <string name="achiev7_desc">You have solved a puzzle in less than 3 seconds!</string>
+    <string name="achiev8_title">Too fast, too hacker</string>
+    <string name="achiev8_desc">All the puzzles have been solved within the optimal time</string>
+    <string name="achiev9_title">Surgeon\'s hands</string>
+    <string name="achiev9_desc">You have finished all the puzzles within the optimal touches</string>
+    <string name="achiev10_title">High five</string>
+    <string name="achiev10_desc">You have survived 5 waves in survival mode</string>
+    <string name="achiev11_title">Survivor</string>
+    <string name="achiev11_desc">You have survived 10 waves in survival mode</string>
+    <string name="achiev12_title">Immortal</string>
+    <string name="achiev12_desc">You have survived 20 waves in survival mode</string>
+    
+    <!-- HELP -->
+    <string name="help_txt1">This game consists of a grid which several cells. Each cell has a number which represents its value. If the value is 0, means that the cell is deactivated. Otherwise the cell is activated.\n\n
+Recognise an activated cell is easy, because its bakground is filled with the proper color (the default cell is green). Now you will see how they look:</string>
+    <string name="help_txtimg1">Status deactivated</string>
+    <string name="help_txtimg2">Status pressed</string>
+    <string name="help_txtimg3">Status activated</string>
+    <string name="help_tip1"><b>Tip: </b>When you touch a cell, keep it touched and you will see marked all the cells which will change its value.</string>
+    <string name="help_txt2">The objective of the game is activating all the green cells (with value equal to 1) and, if there are red ones, setting them value 0. To change the value of a cell you must press it and is probable that more cells will change their value at the same time.</string>
+    <string name="help_txt2_1">In the game there are 2 cell types:\n\n <b>Green:</b> Are the default ones. To go to the next level they must be activated.\n\n</string>
+    <string name="help_txt2_2"><b>Red:</b> They are security bits. All this cells have to be deactivated.\n\n</string>
+    <string name="help_txt3">Next you will see images of the cells:\n\n</string>
+    <string name="help_txtimg4">Normal</string>
+    <string name="help_txtimg5">Security</string>
+    <string name="help_txtimg6">Firewall</string>
+    <string name="help_txt4">This game has several game modes which will be explained ahead.\n\n</string>
+    <string name="help_txt5"><b>PUZZLE MODE</b></string>
+    <string name="help_txt6">Puzzle mode is a game mode which the player solves some puzzles. If the player want to play a puzzle, first he must have solved all the previous ones. Each puzzle measures the number of touches done and the time which it lasted. The less time the player solve the puzzle and the less touches he do, the more he scores.</string>
+    <string name="help_txt7">When you finish a puzzle you get a score depending on the touches and the time.\nIf both the time and the touches are less than the optimal values, the button becomes blue. If you only achieve the optimal time or the optimal touches, it becomes orange.\n</string>
+    <string name="help_txt8">Next you will see the different states which the puzzle can be finished:\n\n </string>
+    <string name="helptxtimg8">It shows what represents each column of the menu. Memory position tells what level it is.\nThe watch indicates the spent time in which the player solved the puzzle.\nThe touch label is self-explanatory.\n</string>
+    <string name="helptxtimg4">Locked puzzle. You won\'t be able to play it.</string>
+    <string name="helptxtimg5">Unlocked puzzle without having played it. The player haven\'t scored yet.</string>
+    <string name="helptxtimg6">Puzzle with low score. The puzle has been completed, but the time or the touches were higher than the required.</string>
+    <string name="helptxtimg7">Puzzle with high score. It has been completed with the optimal time and touches.</string>
+    <string name="help_tip2"><b>Tip: </b>The number of touches only is increased when any cell changes its value.\nIf you touch some cell and you don\'t like the possible result, keep touched the screen and release your finger when it is out of the grid.\n</string>
+    <string name="help_txt9"><b>SURVIVAL MODE</b></string>
+    <string name="help_txt10">As well as the puzzle mode the player must solve several puzzles.\nHowever, there is one difference: The player begin with an amount of time available which is counting down.\n</string>
+    <string name="help_txt11">The score is calculated using the total number of touches and the number of puzzles solved.</string>
+    <string name="round">Round</string>
+    <string name="survivalFinish">This survival game is over.</string>
+    <string name="sScore">Score</string>
+    <string name="objetivo">The optimal touches and time are:</string>
+    <string name="helpdone">Game finished</string>
+    <string name="helpundone">Game not finished</string>
+    <string name="rate">Please, help us and rate this game. Thank you for the support!</string>
+    <string name="rateLater">Remind me later</string>
+    <string name="showhelp">Looks like this is your first time. Do you like to read the help?</string>
+</resources>

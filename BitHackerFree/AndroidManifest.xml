@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.radioactivewasp.bithacker.free"
+    android:versionCode="12"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+            <meta-data android:name="com.google.android.gms.games.APP_ID"
+        android:value="@string/app_id" />
+            
+            <activity android:name="com.radioactivewasp.bithacker.free.Splash"
+              android:configChanges="orientation|keyboardHidden|screenSize"
+              android:screenOrientation="portrait" >
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        
+        <activity
+            android:name="com.radioactivewasp.bithacker.free.BitHacker"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+           <!--   <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        
+        
+        <activity
+            android:name="com.radioactivewasp.bithacker.free.PlayScreen"
+            android:label="@string/title_activity_play_screen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name="com.radioactivewasp.bithacker.free.PuzzleMenu" 
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name="com.radioactivewasp.bithacker.free.Extras"
+            android:label="@string/title_activity_extras"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name="com.radioactivewasp.bithacker.free.PuzzleScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+            </activity>
+            
+        <activity android:name="com.radioactivewasp.bithacker.free.Help"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+            </activity>
+            
+         <activity android:name="com.radioactivewasp.bithacker.free.LogrosMenu"
+             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+            </activity>
+            
+          <activity android:name="com.radioactivewasp.bithacker.free.SurvivalMenu"
+             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+            </activity>
+            
+          <activity android:name="com.radioactivewasp.bithacker.free.SurvivalActivity"
+             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+            </activity>
+            
+          <activity android:name="com.radioactivewasp.bithacker.free.SurvivalScreen"
+             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+            </activity>
+            
+          <activity android:name="com.google.ads.AdActivity"
+   android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+            
+    </application>
+    
+
+</manifest>

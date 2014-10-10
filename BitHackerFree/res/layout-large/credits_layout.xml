@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="430dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/popupbck"
+    android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/CreidtsTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Radioactive Wasp Games"
+            android:textAlignment="center"
+            android:textColor="@color/TextColorG"
+            android:textSize="@dimen/button_large"
+            android:textStyle="bold" />
+    
+        <TextView
+            android:id="@+id/Credits1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/credits1"
+            android:textColor="@color/button_white"
+            android:textSize="@dimen/button_large" />
+        
+         <TextView
+             android:id="@+id/Credits2"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginBottom="50dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="Jordi Català Holgado"
+             android:textColor="@color/Red"
+             android:textSize="@dimen/button_large" />
+         
+         <TextView
+             android:id="@+id/Credits3"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="V 1.1"
+             android:textColor="@color/TextColorG"
+             android:textSize="@dimen/button_large" />
+         
+          <!--  <TextView
+              android:id="@+id/Credits3"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginBottom="10dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:text="@string/credits2"
+              android:textColor="@color/TextColorG"
+              android:textSize="@dimen/button_large" /> -->
+
+</LinearLayout>
+    

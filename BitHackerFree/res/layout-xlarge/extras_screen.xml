@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ExtrasRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PlayScreen" >
+    
+        <!--  android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"-->
+
+    <TextView
+        android:id="@+id/ExtrasTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_weight="3"
+        android:text="@string/extras"
+        android:textColor="@color/TextColorG"
+        android:textSize="@dimen/Title_xlarge" />
+
+    <Button
+        android:id="@+id/Extras0"
+        style="@style/GUIButton"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="21dp"
+        android:layout_weight="1"
+        android:text="@string/credits"
+        android:textSize="@dimen/button_xlarge" />
+
+    <Button
+        android:id="@+id/Extras1"
+        style="@style/GUIButton"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="51dp"
+        android:layout_weight="1"
+        android:text="@string/mgames"
+        android:textSize="@dimen/button_xlarge" />
+
+      <Button
+          android:id="@+id/ExtrasBack"
+          style="@style/back_button"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_gravity="left"
+          android:layout_marginBottom="350dp"
+          android:layout_marginLeft="51dp"
+          android:layout_marginTop="51dp" />
+      
+      <View
+        android:layout_width="1dp"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_layout"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/dialogbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp" >
+
+    <TextView
+        android:id="@+id/sdTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/survivalFinish"
+        android:textAlignment="center"
+        android:textColor="#0F0"
+        android:textSize="@dimen/button_small" />
+ 
+     <!--  
+     
+     <Button
+         android:id="@+id/dialogButtonOK"
+         style="@style/GUIButton"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:gravity="center"
+         android:text=" Ok "
+         android:layout_below="@+id/text"
+          /> -->
+
+    <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginBottom="10dp">
+          
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/round"
+                    android:textColor="@color/TextColorG"
+                    android:textSize="@dimen/button_normal" />
+
+                <TextView
+                    android:id="@+id/survivalRounds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="0"
+                    android:textColor="@color/TextColorG"
+                    android:textSize="@dimen/button_normal" />
+         
+     </LinearLayout>
+     
+      <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginBottom="10dp">
+          
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touches"
+                    android:textColor="@color/TextColorG"
+                    android:textSize="@dimen/button_normal" />
+
+                <TextView
+                    android:id="@+id/survivalTouches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="0"
+                    android:textColor="@color/TextColorG"
+                    android:textSize="@dimen/button_normal" />
+         
+     </LinearLayout>
+     
+      <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginBottom="10dp">
+          
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sScore"
+                    android:textColor="@color/TextColorG"
+                    android:textSize="@dimen/button_normal" />
+
+                <TextView
+                    android:id="@+id/survivalScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="0"
+                    android:textColor="@color/TextColorG"
+                    android:textSize="@dimen/button_normal" />
+         
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/dialogblayout"
+         android:layout_width="fill_parent"
+         android:layout_height="50dp"
+         android:layout_below="@+id/text"
+         android:layout_marginBottom="10dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginTop="10dp"
+         android:gravity="center"
+         android:orientation="horizontal" >
+                
+         <Button
+            android:id="@+id/survivalBack"
+            style="@style/back_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="21dp" />
+
+        <Button
+            android:id="@+id/survivalForward"
+            style="@style/forward_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="21dp" />
+
+     </LinearLayout>
+
+
+
+</LinearLayout>

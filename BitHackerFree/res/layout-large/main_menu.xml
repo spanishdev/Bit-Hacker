@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".BitHacker" >
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/title" />
+
+    <Button
+        android:id="@+id/Main0"
+        style="@style/GUIButton"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="21dp"
+        android:layout_weight="1"
+        android:minHeight="48dp"
+        android:text="@string/play"
+        android:textSize="@dimen/button_large" />
+
+    <Button
+        android:id="@+id/Main1"
+        style="@style/GUIButton"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="21dp"
+        android:layout_weight="1"
+        android:text="@string/help"
+        android:textSize="@dimen/button_large" />
+
+    <Button
+        android:id="@+id/Main2"
+        style="@style/GUIButton"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="21dp"
+        android:layout_weight="1"
+        android:text="@string/extras"
+        android:textSize="@dimen/button_large" />
+
+    <Button
+        android:id="@+id/Main3"
+        style="@style/GUIButton"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="21dp"
+        android:layout_weight="1"
+        android:text="@string/exit"
+        android:textSize="@dimen/button_large" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/bbb"
+            style="@style/Buybutton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+             />
+
+        <Button
+            android:id="@+id/fb"
+            style="@style/FBbutton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp" />
+
+        <Button
+            android:id="@+id/twitter"
+            style="@style/TWbutton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp" />
+
+        <Button
+            android:id="@+id/signin"
+            style="@style/EarthB"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp" />
+        
+        <Button
+            android:id="@+id/signout"
+            style="@style/EarthA"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

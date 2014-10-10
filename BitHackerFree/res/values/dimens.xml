@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_large">35dp</dimen>
+    <dimen name="button_xlarge">60dp</dimen>
+    <dimen name="button_normal">25dp</dimen>
+    <dimen name="button_small">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Title">40dp</dimen>
+    <dimen name="Title_large">60dp</dimen>
+    <dimen name="Title_xlarge">120dp</dimen>
+    <dimen name="title_large2">100dp</dimen>
+    <dimen name="small_letter">15dp</dimen>
+    <dimen name="small">15dp</dimen>
+
+</resources>

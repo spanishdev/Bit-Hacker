@@ -1,0 +1,591 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    tools:context=".PlayScreen" >
+
+
+    <TextView 
+        android:id="@+id/HelpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/help"
+        android:textColor="@color/TextColorG"
+        android:textSize="@dimen/Title_large" />
+
+    <ScrollView
+        android:id="@+id/helpScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.08"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt1"
+            android:textColor="@color/TextColorG" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+             >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.3" >
+
+                <ImageView
+                    android:id="@+id/help1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/help3" />
+                
+                 <TextView 
+                     android:textSize="@dimen/button_small"
+                     android:id="@+id/ht1"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginBottom="10dp"
+                     android:text="@string/help_txtimg1"
+                     android:textAlignment="center"
+                     android:textColor="@color/TextColorG" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:layout_weight="0.5" >
+
+                <ImageView
+                    android:id="@+id/help2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/help2" />
+
+                <TextView 
+ android:textSize="@dimen/button_small"
+                    android:id="@+id/TextView01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/help_txtimg2"
+                    android:textAlignment="center"
+                    android:textColor="@color/TextColorG" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:layout_weight="0.5" >
+
+                <ImageView
+                    android:id="@+id/help3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/help1" />
+
+                <TextView 
+ android:textSize="@dimen/button_small"
+                    android:id="@+id/TextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/help_txtimg3"
+                    android:textAlignment="center"
+                    android:textColor="@color/TextColorG" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/htip1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_tip1"
+            android:textColor="@color/Purple" />
+
+
+        
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt2_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt2_1"
+            android:textColor="@color/TextColorG" />
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt2_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt2_2"
+            android:textColor="@color/Red" />
+
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt3"
+            android:textColor="@color/TextColorG" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/ImageView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bgreeen1" />
+
+                <TextView 
+ android:textSize="@dimen/button_small"
+                    android:id="@+id/TextView05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/help_txtimg4"
+                    android:textAlignment="center"
+                    android:textColor="@color/TextColorG" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/ImageView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bred1" />
+
+                <TextView 
+ android:textSize="@dimen/button_small"
+                    android:id="@+id/TextView06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/help_txtimg5"
+                    android:textAlignment="center"
+                    android:textColor="@color/Red" />
+            </LinearLayout>
+
+            
+        </LinearLayout>
+        
+                <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt2"
+            android:textColor="@color/TextColorG" />
+                
+                <LinearLayout
+            android:id="@+id/layoutExamples"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            >
+            
+            <ImageView 
+                    android:id="@+id/example1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/done1"
+                    android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+            
+            <TextView 
+                android:id="@+id/textsample1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/helpdone"
+            android:textColor="@color/TextColorG"/>
+            
+             <ImageView 
+                    android:id="@+id/example2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/done2"
+                    android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+            
+            <TextView 
+                android:id="@+id/textsample2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/helpundone"
+            android:textColor="@color/TextColorG"/>
+            
+             <ImageView 
+                    android:id="@+id/example3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/done3"
+                    android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+            
+            <TextView 
+                android:id="@+id/textsample3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/helpundone"
+            android:textColor="@color/TextColorG"/>
+            
+             <ImageView 
+                    android:id="@+id/example4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/done4"
+                    android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+            
+            <TextView 
+                android:id="@+id/textsample4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/helpdone"
+            android:textColor="@color/TextColorG"/>
+            
+        </LinearLayout>
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxT4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt4"
+            android:textColor="@color/TextColorG" />
+
+        <TextView 
+            android:id="@+id/helpTxt5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt5"
+            android:textColor="@color/TextColorG"
+            android:textSize="@dimen/button_normal" />
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt6"
+            android:textColor="@color/TextColorG" />
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt7"
+            android:textColor="@color/TextColorG" />
+
+        <TextView 
+ android:textSize="@dimen/button_small"
+            android:id="@+id/helpTxt8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/help_txt8"
+            android:textColor="@color/TextColorG" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/help8"
+                android:layout_marginBottom="10dp" />
+
+            <TextView 
+ android:textSize="@dimen/button_small"
+                android:id="@+id/TextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/helptxtimg8"
+                android:textAlignment="center"
+                android:textColor="@color/TextColorG" />
+            
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/help4" />
+
+            <TextView 
+ android:textSize="@dimen/button_small"
+                android:id="@+id/TextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/helptxtimg4"
+                android:textAlignment="center"
+                android:textColor="@color/TextColorG" />
+            
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/help5" />
+
+            <TextView 
+ android:textSize="@dimen/button_small"
+                android:id="@+id/TextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/helptxtimg5"
+                android:textAlignment="center"
+                android:textColor="@color/TextColorG"
+ />
+            
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/help6" />
+
+            <TextView 
+ android:textSize="@dimen/button_small"
+                android:id="@+id/TextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/helptxtimg6"
+                android:textAlignment="center"
+                android:textColor="@color/TextColorG" />
+            
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/help7" />
+
+            <TextView 
+ android:textSize="@dimen/button_small"
+                android:id="@+id/TextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/helptxtimg7"
+                android:textAlignment="center"
+                android:textColor="@color/TextColorG" />
+            
+        </LinearLayout>
+
+         <TextView 
+ android:textSize="@dimen/button_small"
+             android:id="@+id/TextView04"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="@string/help_tip2"
+             android:textColor="@color/Purple" />
+
+         <TextView 
+             android:id="@+id/helpTxt9"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="@string/help_txt9"
+             android:textColor="@color/TextColorG"
+             android:textSize="@dimen/button_normal" />
+
+         <TextView 
+ android:textSize="@dimen/button_small"
+             android:id="@+id/helpTxt10"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="@string/help_txt10"
+             android:textColor="@color/TextColorG" />
+
+         <TextView 
+ android:textSize="@dimen/button_small"
+             android:id="@+id/helpTxt11"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="@string/help_txt11"
+             android:textColor="@color/TextColorG" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+      <Button
+          android:id="@+id/helpBack"
+          style="@style/back_button"
+          android:layout_width="70dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="left"
+          android:layout_marginLeft="21dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginBottom="21dp" />
+
+</LinearLayout>
